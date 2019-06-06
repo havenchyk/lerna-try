@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@havencyk/alpha": "^1.0.0",
-    "@havencyk/beta": "^1.0.0"
+    "@havenchyk/alpha": "^1.0.0",
+    "@havenchyk/beta": "^1.0.0"
   }
 }

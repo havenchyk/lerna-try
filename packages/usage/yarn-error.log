@@ -1,0 +1,48 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.13.0/libexec/bin/yarn.js install --mutex network:42424 --non-interactive
+
+PATH: 
+  /Users/havenchyk/projects/lerna-try/packages/usage/node_modules/.bin:/Users/havenchyk/projects/lerna-try/packages/node_modules/.bin:/Users/havenchyk/projects/lerna-try/node_modules/.bin:/Users/havenchyk/projects/node_modules/.bin:/Users/havenchyk/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/usr/local/bin:/Users/havenchyk/projects/lerna-try/node_modules/.bin:/Users/havenchyk/.rvm/gems/ruby-2.4.1/bin:/Users/havenchyk/.rvm/gems/ruby-2.4.1@global/bin:/Users/havenchyk/.rvm/rubies/ruby-2.4.1/bin:/usr/local/sbin:/Users/havenchyk/.fastlane/bin:/Users/havenchyk/.deno/bin:/usr/local/opt/sphinx-doc/bin:/usr/local/opt/elasticsearch@5.6/bin:/usr/local/opt/elasticsearch@5.6/bin:/usr/local/opt/python@2/bin:/usr/local/opt/python@2/bin:/Users/havenchyk/.yarn/bin:/Users/havenchyk/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Users/havenchyk/.rvm/gems/ruby-2.4.1/bin:/Users/havenchyk/.rvm/gems/ruby-2.4.1@global/bin:/Users/havenchyk/.rvm/rubies/ruby-2.4.1/bin:/usr/local/sbin:/Users/havenchyk/.fastlane/bin:/Users/havenchyk/.deno/bin:/usr/local/opt/sphinx-doc/bin:/usr/local/opt/elasticsearch@5.6/bin:/usr/local/opt/python@2/bin:/Users/havenchyk/.yarn/bin:/Users/havenchyk/.cargo/bin:/Users/havenchyk/.rvm/bin:/Users/havenchyk/development/flutter/bin:/Users/havenchyk/.rvm/bin:/Users/havenchyk/development/flutter/bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.15.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: http://localhost:4873/@havencyk%2falpha: no such package available
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:66255:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:129397:22)
+      at Request.emit (events.js:189:13)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:130369:10)
+      at Request.emit (events.js:189:13)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:130291:12)
+      at Object.onceWrapper (events.js:277:13)
+      at IncomingMessage.emit (events.js:194:15)
+      at endReadableNT (_stream_readable.js:1125:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+  	"name": "@havenchyk/usage",
+  	"version": "1.1.0",
+  	"description": "",
+  	"main": "index.js",
+  	"keywords": [],
+  	"author": "",
+  	"license": "ISC",
+  	"dependencies": {
+  		"@havencyk/alpha": "^1.0.0",
+  		"@havencyk/beta": "^1.0.0"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
