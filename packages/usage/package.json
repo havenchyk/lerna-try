@@ -1,6 +1,6 @@
 {
   "name": "@havenchyk/usage",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@havenchyk/alpha": "^1.0.0",
-    "@havenchyk/beta": "^1.0.0"
+    "@havenchyk/alpha": "^1.1.1",
+    "@havenchyk/beta": "^1.1.1"
   }
 }
